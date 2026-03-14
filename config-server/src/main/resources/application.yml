@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file://${user.home}/OneDrive/Desktop/task 14-1/config-repo
+          default-label: main
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
