@@ -1,0 +1,27 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build directories
+target/
+build/
+out/
+bin/
+
+# Maven/Gradle wrapper
+.mvn/wrapper/
+.gradle/
+gradlew
+gradlew.bat
+
+# IDE settings
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+
+# Nested git repositories (ignored to allow tracking files)
+config-repo/.git
+config-repo/dot_git_backup
